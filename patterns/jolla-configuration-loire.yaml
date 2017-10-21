@@ -1,0 +1,20 @@
+# Feel free to disable non-critical HA parts during devel by commenting lines out
+# Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
+
+Description: Pattern with packages for loire configurations
+Name: jolla-configuration-loire
+Requires:
+- patterns-sailfish-applications
+- patterns-sailfish-ui
+- patterns-sailfish-cellular-apps
+
+- sailfish-content-graphics-z@ICON_RES@
+- csd
+- sd-utils
+- geoclue-provider-mlsdb
+- jolla-settings-system-flashlight
+- apkd-config-home
+- mapplauncherd-booster-silica-qt5-media
+
+Summary: Jolla Configuration loire
+

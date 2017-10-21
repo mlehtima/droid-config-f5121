@@ -1,0 +1,5 @@
+etc/dconf/db/vendor.d/jolla-camera-hw-f5321.txt
+etc/dconf/db/vendor.d/lipstick-configs-f5321.txt
+etc/dconf/db/vendor.d/silica-configs-f5321.txt
+usr/share/ssu/board-mappings.d/05-f5121.ini
+usr/share/ssu/board-mappings.d/05-f5321.ini

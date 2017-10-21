@@ -1,0 +1,21 @@
+# Feel free to disable non-critical HA parts during devel by commenting lines out
+# Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
+
+Description: Pattern with packages for f5122 HW Adaptation
+Name: jolla-hw-adaptation-f5122
+Requires:
+- droid-hal-f5122
+- droid-hal-f5122-img-boot
+- droid-hal-f5122-img-recovery
+- droid-config-f5122-sailfish
+- droid-config-f5122-pulseaudio-settings
+- droid-config-f5122-policy-settings
+- droid-config-f5122-preinit-plugin
+- droid-config-f5122-flashing
+- droid-config-f5122-bluez5
+- droid-hal-version-f5122
+
+- pattern:jolla-hw-adaptation-loire
+
+Summary: Jolla HW Adaptation f5122
+
